@@ -19,4 +19,4 @@ app.use("/api/carts", cartRouter)
 app.get("/", async (req, res) => {
     res.send("Working");
 });
-app.listen(port, () => console.log("running"))
+app.listen(port, () => console.log("running"));
